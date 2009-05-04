@@ -2,8 +2,7 @@ GTFS-ROR-HELPER
 Google Transit Feed Specification - Ruby On Rails
 Author: Matteo La Cognata (matteo.lacognata@gmail.com)
 
-GTFS-ROR-HELPER provides with a Bash script (generate.sh) & a Ruby on Rails Module (app/helpers/import_gtfs_helper.rb) + 
-Controller (app/controllers/import_gtfs_controller.rb) which can be used to import a Google Transit Feed into a MySQL/SQLite database.
+GTFS-ROR-HELPER provides with a Bash script (generate.sh) & a Ruby on Rails Module (app/helpers/import_gtfs_helper.rb) + Controller (app/controllers/import_gtfs_controller.rb) which can be used to import a Google Transit Feed into a MySQL/SQLite database.
 The database connection details are specified as in any ROR application via config/database.yml. 
 GTFS-ROR-HELPER leverages the Model & Active Record approach of Ruby on Rails and no SQL is used in the Ruby script. 
 Models of the GTFS are created according to the GTFS specification Rev. March 30, 2009.
